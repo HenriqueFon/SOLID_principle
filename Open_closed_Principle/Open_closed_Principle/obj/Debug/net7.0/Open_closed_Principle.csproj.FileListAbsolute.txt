@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\bin\Debug\net7.0\Open_closed_Principle.exe
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\bin\Debug\net7.0\Open_closed_Principle.deps.json
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\bin\Debug\net7.0\Open_closed_Principle.runtimeconfig.json
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\bin\Debug\net7.0\Open_closed_Principle.dll
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\bin\Debug\net7.0\Open_closed_Principle.pdb
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.dll
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\refint\Open_closed_Principle.dll
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.pdb
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\Open_closed_Principle.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Open_closed_Principle\Open_closed_Principle\obj\Debug\net7.0\ref\Open_closed_Principle.dll
