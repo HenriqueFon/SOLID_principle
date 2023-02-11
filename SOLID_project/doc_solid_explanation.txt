@@ -1,0 +1,93 @@
+Single Responsibility Principle (SRP)
+Criaremos uma classe para gerenciar a conta bancária individual, que será responsável por lidar com operações de depósito, saque e consulta de saldo.
+csharp
+Copy code
+public class BankAccount
+{
+    public int AccountNumber { get; set; }
+    public decimal Balance { get; set; }
+
+    public void Deposit(decimal amount)
+    {
+        Balance += amount;
+    }
+
+    public void Withdraw(decimal amount)
+    {
+        if (Balance >= amount)
+        {
+            Balance -= amount;
+        }
+    }
+
+    public decimal GetBalance()
+    {
+        return Balance;
+    }
+}
+Open/Closed Principle (OCP)
+Podemos criar uma interface que defina as operações que uma conta bancária precisa realizar, e a classe BankAccount implementará essa interface. Dessa forma, podemos estender ou modificar a classe sem afetar as classes que dependem da interface.
+csharp
+Copy code
+public interface IBankAccount
+{
+    void Deposit(decimal amount);
+    void Withdraw(decimal amount);
+    decimal GetBalance();
+}
+
+public class BankAccount : IBankAccount
+{
+    // ...
+}
+Liskov Substitution Principle (LSP)
+Podemos criar uma subclasse de BankAccount que represente uma conta poupança e a substituir por BankAccount sem afetar o funcionamento da aplicação.
+csharp
+Copy code
+public class SavingsAccount : IBankAccount
+{
+    public decimal InterestRate { get; set; }
+
+    // ...
+
+    public decimal CalculateInterest()
+    {
+        return Balance * InterestRate;
+    }
+}
+Interface Segregation Principle (ISP)
+Podemos criar uma interface separada para representar as operações que só são válidas para uma conta poupança, e fazer com que a classe SavingsAccount implemente essa interface ao invés de IBankAccount.
+kotlin
+Copy code
+public interface ISavingsAccount
+{
+    decimal CalculateInterest();
+}
+
+public class SavingsAccount : IBankAccount, ISavingsAccount
+{
+    // ...
+}
+Dependency Inversion Principle (DIP)
+Podemos fazer com que a aplicação dependa das interfaces ao invés das implementações específicas, permitindo que as classes possam ser facilmente substituídas por outras implementações sem afetar o funcionamento da aplicação.
+csharp
+Copy code
+public class Bank
+{
+    private readonly IBankAccount _account;
+
+   	public Bank(IBankAccount account)
+    	{
+        _account = account;
+	}
+
+
+public void ProcessTransaction(decimal amount)
+{
+    _account.Withdraw(amount);
+}
+}
+
+
+
+Com essas classes e interfaces implementadas, a aplicação estará seguindo todos os princí
